@@ -1,0 +1,14 @@
+Add credentials (for 1st time)
+Generate trusted authedication key #ssh-keygen -t ed5519 "git acc gmail"
+#git config --global user.name <git acc user name>
+#git config --global user.email <git acc gmail>
+
+
+Regular task commands
+#git clone <ssh code of forked project>
+#git add <filename>
+#git commit -m <"name for commit (ex:-cmt1-pr1)">
+#git status
+#git push -u origin <main/branch name>
+
+#git rm -rf <file name> (if their is need of removing file from commit list)
